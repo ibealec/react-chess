@@ -1,0 +1,15 @@
+.board-container {
+    width: 100%;
+    height: auto;
+}
+.board {
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.row {
+    width: 800px;
+    display: flex;
+}
