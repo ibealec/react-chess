@@ -6,7 +6,7 @@ import { Bishop, King, Knight, Pawn, Queen, Rook } from './Pieces';
 class Game extends Component {
     state = { 
         boardState: [
-            [new Rook('p1'), new Knight('p1'), new Bishop('p1'), new King('p1'), new Queen('p1'), new Bishop('p1'), new Knight('p1'), new Rook('p1')],
+            [new Rook({player: 'p1', row: 0, col: 0}), new Knight('p1'), new Bishop('p1'), new King('p1'), new Queen('p1'), new Bishop('p1'), new Knight('p1'), new Rook('p1')],
             [new Pawn('p1'), new Pawn('p1'), new Pawn('p1'), new Pawn('p1'), new Pawn('p1'), new Pawn('p1'), new Pawn('p1'), new Pawn('p1')],
             [null, null, null, null, null, null, null, null],
             [null, null, null, null, null, null, null, null],
